@@ -14,3 +14,8 @@ the following are the routing paths inorder to operations with this api
   - /options/:id/delete (To delete an option) this is also a delete request whre user don't need to pass nay thing
   - /options/:id/add_vote (To increment the count of votes) this is put request and with this request user don't need pass any thing 
   - /questions/:id (To view a question and it’s options) this is get request and no need of passing any thing
+all code related to  intial routing are placed in the index file
+all code related to questions category routing placed in questionsrouter.js file which is located under rel_to_questions folder which is under src folder
+all code related to options category routing placed in optionsrouter.js file which is located under rel_to_options folder which is under src folder
+all code related to database configration placed in mongooseConnect.js file which is located under config folder
+
