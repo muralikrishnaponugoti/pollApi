@@ -19,3 +19,5 @@ all code related to questions category routing placed in questionsrouter.js file
 all code related to options category routing placed in optionsrouter.js file which is located under rel_to_options folder which is under src folder
 all code related to database configration placed in mongooseConnect.js file which is located under config folder
 
+note:- test the api by using api testing platforms like postman
+
