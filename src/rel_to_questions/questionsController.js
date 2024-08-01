@@ -52,7 +52,7 @@ export default class questionController{
                 return res.status(422).send('something went wrong check your details and try again');
         }
         else
-            return res.staus(404).sed(`question with id:  ${qid} not found`);
+            return res.status(404).send(`question with id:  ${qid} not found`);
 
     }
     
